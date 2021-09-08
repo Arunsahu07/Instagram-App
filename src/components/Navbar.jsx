@@ -6,19 +6,19 @@ import "../../node_modules/bootstrap/dist/css/bootstrap.css";
 const Navbar = () => {
   const [state, setState] = useState("");
   const [val, setVal] = useState("");
-  return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
-      <div className="container">
+  return (<>
+    <nav className= "navbar">
+      <div className="container flex flex-justify-between ">
         <img src={instaLogo} alt="" />
        
-        <input placeholder="search" value={val}  onChange={(e)=>setVal(e.target.value)}></input>
-        <div className=" icons" id="navbarSupportedContent">
-    
+        <input className="navbar-input" placeholder="search" value={val}  onChange={(e)=>setVal(e.target.value)}></input>
+        <div className=" icons" >
+        
             <span className="nav-item">
               <i
                 className={
                   state === "home"
-                    ? "bi bi-house-door-fill colored"
+                    ? "bi bi-house-door-fill  "
                     : "bi bi-house-door"
                 }
                 onClick={() => {
@@ -30,7 +30,7 @@ const Navbar = () => {
               <i
                 className={
                   state === "msg"
-                    ? "bi bi-chat-right-fill colored"
+                    ? "bi bi-chat-right-fill  "
                     : "bi bi-chat-right"
                 }
                 onClick={() => {
@@ -42,7 +42,7 @@ const Navbar = () => {
             <span  className="nav-item">
               <i
                 className={
-                  state === "disc" ? "bi bi-disc-fill colored" : "bi bi-disc"
+                  state === "disc" ? "bi bi-disc-fill  " : "bi bi-disc"
                 }
                 onClick={() => {
                   setState("disc");
@@ -53,7 +53,7 @@ const Navbar = () => {
             <span className="nav-item">
               <i
                 className={
-                  state === "heart" ? "bi bi-heart-fill colored" : "bi bi-heart"
+                  state === "heart" ? "bi bi-heart-fill  " : "bi bi-heart"
                 }
                 onClick={() => {
                   setState("heart");
@@ -67,6 +67,7 @@ const Navbar = () => {
         
       </div>
     </nav>
+    </>
   );
 };
 export default Navbar;

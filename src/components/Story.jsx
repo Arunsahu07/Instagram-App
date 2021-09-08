@@ -12,24 +12,23 @@ export const Story = () => {
   }, []);
   return (
     <div className="story-container md-mx-5 " ref={story}>
-      {console.log(story.current)}
 
       <i
-                class="bi bi-chevron-left"
+                className="bi bi-chevron-left"
         onClick={() => {
           story.current.scrollBy({
             top: 0,
-            left: 200,
+            left: 300,
             behavior: "smooth",
           });
         }}
       ></i>
       <i
-                class="bi bi-chevron-right"
+                className="bi bi-chevron-right"
         onClick={() => {
           story.current.scrollBy({
             top: 0,
-            left: -200,
+            left: -300,
             behavior: "smooth",
           });
         }}
