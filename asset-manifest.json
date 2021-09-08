@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Instagram-App/static/css/main.d851cd28.chunk.css",
-    "main.js": "/Instagram-App/static/js/main.3c182483.chunk.js",
-    "main.js.map": "/Instagram-App/static/js/main.3c182483.chunk.js.map",
+    "main.js": "/Instagram-App/static/js/main.57e6c0c8.chunk.js",
+    "main.js.map": "/Instagram-App/static/js/main.57e6c0c8.chunk.js.map",
     "runtime-main.js": "/Instagram-App/static/js/runtime-main.66e17609.js",
     "runtime-main.js.map": "/Instagram-App/static/js/runtime-main.66e17609.js.map",
     "static/css/2.983f79de.chunk.css": "/Instagram-App/static/css/2.983f79de.chunk.css",
@@ -18,6 +18,6 @@
     "static/css/2.983f79de.chunk.css",
     "static/js/2.4150a1d2.chunk.js",
     "static/css/main.d851cd28.chunk.css",
-    "static/js/main.3c182483.chunk.js"
+    "static/js/main.57e6c0c8.chunk.js"
   ]
 }
