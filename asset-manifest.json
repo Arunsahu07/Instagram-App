@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Instagram-App/static/css/main.016a613f.chunk.css",
+    "main.css": "/Instagram-App/static/css/main.6a783b6f.chunk.css",
     "main.js": "/Instagram-App/static/js/main.ccfe7ef3.chunk.js",
     "main.js.map": "/Instagram-App/static/js/main.ccfe7ef3.chunk.js.map",
     "runtime-main.js": "/Instagram-App/static/js/runtime-main.66e17609.js",
@@ -10,14 +10,14 @@
     "static/js/2.55f4c96a.chunk.js.map": "/Instagram-App/static/js/2.55f4c96a.chunk.js.map",
     "index.html": "/Instagram-App/index.html",
     "static/css/2.983f79de.chunk.css.map": "/Instagram-App/static/css/2.983f79de.chunk.css.map",
-    "static/css/main.016a613f.chunk.css.map": "/Instagram-App/static/css/main.016a613f.chunk.css.map",
+    "static/css/main.6a783b6f.chunk.css.map": "/Instagram-App/static/css/main.6a783b6f.chunk.css.map",
     "static/js/2.55f4c96a.chunk.js.LICENSE.txt": "/Instagram-App/static/js/2.55f4c96a.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.66e17609.js",
     "static/css/2.983f79de.chunk.css",
     "static/js/2.55f4c96a.chunk.js",
-    "static/css/main.016a613f.chunk.css",
+    "static/css/main.6a783b6f.chunk.css",
     "static/js/main.ccfe7ef3.chunk.js"
   ]
 }
